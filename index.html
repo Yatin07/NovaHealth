@@ -1,0 +1,59 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="description" content="Free Web tutorials" /> 
+    <meta name="keywords" content="HTML, CSS, JavaScript" /> 
+    <meta name="author" content="John Doe" /> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0" /> 
+    <title>NovaHealth Login page</title> 
+  
+  
+    <!--Font Awesome-->
+    <link rel="stylesheet" href= 
+        "https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity= 
+"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous" /> 
+  
+    <!--Style CSS-->
+    <link rel="stylesheet" href="index.css" /> 
+  
+</head> 
+  
+<body> 
+
+
+    <video autoplay muted loop id="myVideo">
+        <source src="12255244-hd_1920_1080_25fps.mp4" type="video/mp4">
+      </video>
+
+      
+         
+     
+      
+           <div class="login-container">
+        <h1>NovaHealth</h1>
+        <h2>Sign in</h2>
+        <p>Stay updated on your fitness journey</p>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <div id="errorMessage" class="error"></div>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+            <input type="submit" value="SIGN IN">
+        </form>
+        <p class="new-user">New to Novadirectory? 
+        </p>
+    </div>
+      
+      
+      
+    <script src="index.js"></script>
+</body> 
+  
+</html> 

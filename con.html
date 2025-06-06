@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us - Professional Website</title>
+    <link rel="stylesheet" href="con.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="abt.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-info">
+        <div class="container">
+            <h2>We'd love to hear from you!</h2>
+            <p>If you have any questions, comments, or would like to work with us, please feel free to reach out through any of the methods below.</p>
+        </div>
+    </section>
+
+    <section class="contact-details">
+        <div class="container">
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="submit_contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="company-info">
+                <h3>Our Location</h3>
+                <p><strong>Company Name</strong></p>
+                <p>1234 Professional St, Suite 567</p>
+                <p>City, State, 12345</p>
+                <p>Email: <a href="mailto:info@company.com">info@company.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+
+                <div class="social-icons" style="display: inline-block;">
+                    <a href="https://www.instagram.com/yatin_ptl_07?igsh=MTY2bHg3czF5ODZ0aQ==" ><img src="in.png" alt="Instagram" style="display: inline-block; width: 50px; height: 50px;"></a>
+                    <a href="#"><img src="fb.png" alt="Facebook" style="display: inline-block; width: 50px; height: 50px;"></a>
+                    <a href="#"><img src="ln.png" alt="LinkedIn" style="display: inline-block; width: 50px; height: 50px;"></a>
+                    <a href="#"><img src="x.png" alt="Twitter" style="display: inline-block; width: 50px; height: 50px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+
+    <script src="con.js"></script>
+</body>
+</html>

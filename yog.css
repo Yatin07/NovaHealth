@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #5eaaa8;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.yoga-category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.yoga-card {
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.yoga-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.yoga-card h3 {
+    margin: 1rem 0;
+    color: #5eaaa8;
+}
+
+.yoga-card p {
+    padding: 0 1rem 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .yoga-category {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yoga-card {
+        width: 80%;
+    }
+}
